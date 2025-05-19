@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo">Pushkar's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Hello, I'm <span>Pushkar Jaju </span></h2>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Pushkar Jaju</strong>, a passionate and curious developer currently pursuing my Bachelor's
+            in Computer Science.
+            I love building interactive and user-friendly applications, whether it's a quiz app using Python and Tkinter
+            or a dynamic portfolio like this one.
+            My interests lie in full-stack development, UI/UX design, and emerging technologies like artificial
+            intelligence and
+            machine learning.
+            <br><br>
+            I'm always eager to learn and explore new tools, frameworks, and ideas that help me grow as a developer.
+            When I'm not coding, you'll find me exploring tech trends, designing user interfaces, or cheering for Rohit
+            Sharma in a cricket match!
+        </p>
+        <!-- Place this where you want the button to appear -->
+        <a href="Assets/pushkar_resume.pdf" class="btn-resume" target="_blank" rel="noopener">
+            📄 Download Resume
+        </a>
+
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Quiz App</h3>
+                <p>“Quiz App” with a Tkinter GUI, incorporating features like interactive frames, animations,
+                    shuffled questions, and detailed answer explanations, demonstrating proficiency in software
+                    development and user-focused design</p>
+                <a href="https://github.com/pushkar-jaju/Quiz-App-using-python" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Hospitality Hub</h3>
+                <p>Developed a Hotel Management System “Hospitality Hub” using C# and SQL Server to
+                    automate booking, billing, and room management. Streamlined hotel operations with
+                    modules for customer registration, services, reporting, and secure login.</p>
+                <a href="https://github.com/pushkar-jaju/MyHotel" target="_blank">View Project</a>
+            </div>
+            <!-- Add more cards -->
+        </div>
+    </section>
+
+    <section id="timeline">
+        <h2 data-aos="fade">Journey</h2>
+        <ul class="timeline">
+            <li>
+                <span class="date">Mar 2025</span>
+                <h3>MAH MCA CET - 98.51 percentile</h3>
+            </li>
+            <li>
+                <span class="date">2022-2025</span>
+                <h3>B.Sc. Computer Science - RSM, Latur</h3>
+                <p>Key courses: Web development, Python, DBMS, Software Engineering.</p>
+            </li>
+            <li>
+                <span class="date">April 2025</span>
+                <h3>Hospitality Hub - Major Project (C#, SQL Server)</h3>
+                <p>Developed a hotel management system with a full POS workflow for my final-year project.</p>
+            </li>
+            <li>
+                <span class="date">Nov 2024</span>
+                <h3>Quiz App - Mini Project (Python, SQLite)</h3>
+                <p>Built an interactive Python + Tkinter Quiz App with SQLite backend, random question shuffling, and
+                    instant score analytics.</p>
+            </li>
+            <li>
+                <span class="date">May 2022</span>
+                <h3>12th Science - MGM, Ahmedpur</h3>
+                <p>Completed 12th Grade (HSC) in Science stream with 61.17 % overall, building a strong base in
+                    mathematics and computer fundamentals.</p>
+            </li>
+            <li>
+                <span class="date">May 2020</span>
+                <h3>10th - KNS, Ahmedpur</h3>
+                <p>Achieved 89 % in 10th Grade (SSC), demonstrating solid academic performance and aptitude for STEM subjects.</p>
+            </li>
+        </ul>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: pushkarjaju.30@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/pushkarjaju/">linkedin.com/in/pushkarjaju</a></p>
+        <p>Github : <a href="https://github.com/pushkar-jaju">pushkar-jaju</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pushkar Jaju. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
